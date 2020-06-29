@@ -1,0 +1,22 @@
+PROJECT_NAME : 	Employee Attrition Rate Predictor
+SUBMITTED BY: 	Partha Prateem Patra
+
+EVENT NAME : 	Hackerearth machine learning challenge
+ORGANIZED BY : 	Hackerearth
+
+PROBLEM STATEMENT : Employees are the most important part of an organization. Successful employees meet deadlines, make sales, and build the brand through positive customer interactions.
+
+Employee attrition is a major cost to an organization and predicting such attritions is the most important requirement of the Human Resources department in many organizations. In this problem, your task is to predict the attrition rate of employees of an organization.
+
+SOLUTION APPROACH : First of all I carried out an exploratory data analysis of the given dataset and foudn out some insights about the data.
+Then I did some preprocessing of the data, label encoded categorical variables and imputed the missing values with most frequestly occuring value.
+There after I carried out feature selection for the model and tested various machine learning algorithms to find the best suited one.
+
+FEATURE ENGINEERING: By carefully oberving the plots and mapping out the correlation matrix we can find the collumns which have high positive 
+as well as high negative correlation with the target variable. The features selected for model building are:
+
+MACHINE LEARNING ALGORITHMS : By testing out various machine learning algorithms I found Poisson Regression to be the best one.
+The other ML algorithms tried are:
+Random Forest, XGBoost, Lasso Regression, Elastic Net, Support Vector Regressor, Poisson Regressor, Gradient Boosting Regression Trees for Poisson Regression, Tweedie Regressor, Passive Agressive Regressor, Orthogonal Matching Pursuit, Bayesian Ridge, ARD regressor.
+
+TOOLS USED: I used kaggle notebooks to run all my model trainging and testing processes.
